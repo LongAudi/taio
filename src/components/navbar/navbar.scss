@@ -1,0 +1,55 @@
+.ant-layout-header {
+    background-color: white;
+}
+
+.ant-btn {
+    font-size: 17px;
+    height: 39px;
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.ant-space-item {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+Header {
+    display: flex;
+}
+
+.center {
+    margin-left: 55px;
+}
+
+input {
+    width: 80vh;
+    padding: 0 15px 4px;
+    height: 39px;
+    border: 1px solid rgba(128, 128, 128, 0.384);
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.right {
+    padding: 20px 60px;
+    display: flex;
+}
+
+.icon {
+    font-size: 20px;
+    padding: 5px 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    position: relative;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

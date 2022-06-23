@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
+
+
+.top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+img {
+    height: 50px;
+    margin: 16px;
+}
+
+.ant-layout-sider {
+    background-color: white;
+}
+
+.ant-layout-sider-trigger {
+    background-color: white;
+    color: rgb(212, 16, 16);
+    font-size: 25px;
+}
+
+.ant-layout-sider .ant-layout-sider-dark .ant-layout-sider-has-trigger {
+    flex: 0 0 250px;
+    max-width: 250px;
+    min-width: 200px;
+    width: 200px;
+}
+
+.ant-menu{
+    color: rgba(128, 128, 128, 0.801);
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #fef6f6;
+    color: #ff6c60;
+}
+
+.ant-menu-inline .ant-menu-item::after {
+    border-right: 3px solid transparent;
+}
+
+.ant-menu-light .ant-menu-item:hover{
+    color: #ff6c60;
+}
+
+.ant-menu-title-content{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ant-menu-item .ant-menu-item-icon + span{
+    margin-left: 20px;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child){
+    margin-bottom: 12px;
+}
