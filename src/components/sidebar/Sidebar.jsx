@@ -4,35 +4,83 @@ import "./sidebar.scss"
 import { FileTextOutlined, HomeOutlined, SolutionOutlined, SettingOutlined, GiftOutlined, BarChartOutlined, DatabaseOutlined, UnorderedListOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu } from 'antd';
 import Logo from "../../images/logo.png"
+import { Link} from "react-router-dom"
 
 const { Header, Content, Footer, Sider } = Layout;
 
-function getItem(label, key, icon, children) {
-  return {
-    key,
-    icon,
-    children,
-    label,
-  };
-}
 
-const items = [
-  getItem('Dashboard', '1', <HomeOutlined />),
-  getItem('Hóa đơn', '2', <FileTextOutlined />),
-  getItem('Thống kê', '3', <BarChartOutlined />),
-  getItem('Báo cáo', '4', <SolutionOutlined />),
-  getItem('Nguốn dữ liệu', '5', <DatabaseOutlined />),
-  getItem('Danh mục', '6', <UnorderedListOutlined />),
-  getItem('Hệ thống', '7', <SettingOutlined />),
-  getItem('Gói hóa đơn', '8', <GiftOutlined />),
-];
 
 const Sidebar = () => {
   const [collapsed, setCollapsed] = useState(false);
   return (
     <Sider collapsible collapsed={collapsed} onCollapse={(value) => setCollapsed(value)}>
       <img src={Logo} alt="" />
-      <Menu defaultSelectedKeys={['1']} mode="inline" items={items} />
+      <Link to="/" style={{ textDecoration: "none" }}>
+        <Menu mode="inline">
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <li>
+              <HomeOutlined/>
+              <span>Dashboard</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/hoadon" style={{ textDecoration: "none" }}>
+            <li>
+              <FileTextOutlined/>
+              <span>Hóa đơn</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/thongke" style={{ textDecoration: "none" }}>
+            <li>
+              <BarChartOutlined/>
+              <span>Thống kê</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/baocao" style={{ textDecoration: "none" }}>
+            <li>
+              <SolutionOutlined/>
+              <span>Báo cáo</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/nguonDL" style={{ textDecoration: "none" }}>
+            <li>
+              <DatabaseOutlined/>
+              <span>Nguốn dữ liệu</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/danhmuc" style={{ textDecoration: "none" }}>
+            <li>
+              <UnorderedListOutlined/>
+              <span>Danh mục</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/hethong" style={{ textDecoration: "none" }}>
+            <li>
+              <SettingOutlined/>
+              <span>Hệ thống</span>
+            </li>
+          </Link>
+        </Menu>
+        <Menu mode="inline">
+          <Link to="/goiHD" style={{ textDecoration: "none" }}>
+            <li>
+              <GiftOutlined/>
+              <span>Gói hóa đơn</span>
+            </li>
+          </Link>
+        </Menu>
+      </Link>
     </Sider>
   )
 }

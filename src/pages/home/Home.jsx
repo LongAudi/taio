@@ -23,9 +23,6 @@ const Home = () => {
             <Widget type="yeucaucho"/>
           </div>
         </div>
-
-
-
       </Layout>
     </div>
   )

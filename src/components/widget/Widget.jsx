@@ -1,12 +1,6 @@
 import React from 'react'
 import './Widget.scss'
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
-import { FileTextOutlined, HomeOutlined, UserOutlined } from '@ant-design/icons';
-import { style } from '@mui/system';
+import { FileTextOutlined, HomeOutlined, UserOutlined,CarryOutOutlined } from '@ant-design/icons';
 
 const Widget = ({ type }) => {
 
@@ -35,7 +29,7 @@ const Widget = ({ type }) => {
             data = {
                 title: "Tài khoản",
                 icon: (<UserOutlined style={{
-                    color: "#F4D767",
+                    color: "#5B93FF",
                 }} />),
                 counter: "03"
             }
@@ -43,7 +37,7 @@ const Widget = ({ type }) => {
         case "yeucaucho":
             data = {
                 title: "Số yêu cầu chờ",
-                icon: (<UserOutlined style={{
+                icon: (<CarryOutOutlined style={{
                     color: "#F4D767",
                 }} />),
                 counter: "03"

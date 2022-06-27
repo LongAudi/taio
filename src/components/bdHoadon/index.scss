@@ -1,0 +1,36 @@
+.datatable {
+    height: 600px;
+    padding: 20px;
+
+    .datatableTitle {
+        width: 100%;
+        font-size: 24px;
+        color: #7451f8;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search{
+        display: flex;
+        .left{
+            display: flex;
+            width: 30%;
+            align-items: center;
+            padding: 6px;
+    
+            input{
+                border: none;
+                outline: none;
+                background: transparent;
+                background: white;
+    
+                &::placeholder{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

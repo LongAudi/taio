@@ -1,16 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap");
-
-
-.top {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+.ant-layout-header {
+    background: white;
 }
-img {
-    height: 50px;
-    margin: 16px;
+
+.ant-btn {
+    font-size: 17px;
+    height: 39px;
+    border-radius: 10px;
+    padding-top: 0px;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+
+.ant-space-item {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.anticon-left
+{
+    // border: 1px solid gray;
+    border-radius: 50%;
+    // background-color: gray;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;  
+}
+
+.anticon-right{
+    // border: 1px solid gray;
+    border-radius: 50%;
+    // background-color: gray;
+    width: 30px;
+    height: 30px;
+    padding-top: 5px;
 }
 
 .ant-layout-sider {
@@ -19,7 +40,7 @@ img {
 
 .ant-layout-sider-trigger {
     background-color: white;
-    color: white;
+    color: red;
     font-size: 20px;
 }
 
@@ -58,35 +79,4 @@ img {
 
 .ant-menu-inline .ant-menu-item:not(:last-child){
     margin-bottom: 12px;
-}
-
-li {
-    display: flex;
-    align-items: center;
-    padding: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #8E8E8E;
-
-    span {
-        font-style: 12px;
-        font-weight: 600;
-        color: #8E8E8E;
-        margin-left: 10px;
-    }
-    span:hover{
-        color: #FF6C60;
-    }
-}
-
-li:hover{
-    // padding: 10px;
-    color: #FF6C60;
-    background-color: #FEF6F6;
-    border-radius: 10px;
-}
-
-.ant-menu{
-    padding: 10px;
-    // background-color: #FEF6F6;
 }
