@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import { Breadcrumb, Layout, Menu } from 'antd';
+import Index from '../../components/bdThongke/Index';
 
 const Thongke = () => {
     return (
@@ -13,7 +14,7 @@ const Thongke = () => {
             <Sidebar />
             <div className="thongkeContainer">
                 <Navbar />
-                Thống kê
+                <Index/>
             </div>
         </Layout>
     )

@@ -3,33 +3,41 @@
     padding: 20px;
 
     .datatableTitle {
-        width: 100%;
         font-size: 24px;
-        color: #7451f8;
-        font-weight: bold;
+        color: #212529;
+        font-weight: 600;
         margin-bottom: 10px;
         display: inline-block;
         align-items: center;
         justify-content: space-between;
+        line-height: 28px;
+        font-family: "Roboto";
+        font-style: normal;
     }
 
-    .search{
+    .search {
         display: flex;
-        .left{
+        .left {
             display: flex;
             width: 30%;
             align-items: center;
             padding: 6px;
-    
-            input{
+
+            input {
                 border: none;
                 outline: none;
                 background: transparent;
                 background: white;
-    
-                &::placeholder{
+
+                &::placeholder {
                     font-size: 12px;
                 }
+            }
+        }
+        .right {
+            
+            span {
+                font-size: 13px;
             }
         }
     }

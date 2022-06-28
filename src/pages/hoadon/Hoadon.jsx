@@ -15,7 +15,7 @@ const Hoadon = () => {
             <Sidebar />
             <div className="hoadonContainer">
                 <Navbar />
-                <Index/>
+                <Index />
             </div>
         </Layout>
     )

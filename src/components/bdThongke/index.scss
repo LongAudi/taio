@@ -1,0 +1,51 @@
+.center {
+    display: flex;
+    margin: 10px;
+    .left {
+        flex: 6;
+    }
+
+    .right {
+        flex: 2;
+        margin-left: 20px;
+        background-color: white;
+        border-radius: 10px;
+        width: 40%;
+        height: 45vh;
+        display: inline-block;
+
+        .topTK {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
+            color: #212529;
+            text-align: center;
+        }
+
+        .centerTK {
+            width: 150px;
+            height: 150px;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 88px;
+        }
+        .bottomTK {
+            display: flex;
+            
+            .color{
+                display: flex;
+                margin: 10px;
+                .mau{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: #F6DE85;
+                    margin: 5px ;
+                }
+            }
+        }
+    }
+}
