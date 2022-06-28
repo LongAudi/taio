@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import { Breadcrumb, Layout, Menu } from 'antd';
+import Index from '../../components/bdBaocao/Index';
 
 const Baocao = () => {
     return (
@@ -13,7 +14,7 @@ const Baocao = () => {
             <Sidebar />
             <div className="hoadonContainer">
                 <Navbar />
-                Báo cáo
+                <Index/>
             </div>
         </Layout>
     )
