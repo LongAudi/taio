@@ -138,3 +138,11 @@
 .ant-pagination.ant-pagination-mini .ant-pagination-prev, .ant-pagination.ant-pagination-mini .ant-pagination-next{
     height: 36px;
 }
+.ant-input-group.ant-input-group-compact > .ant-select:last-child > .ant-select-selector{
+    bottom: 6px;
+}
+
+.ant-input-group.ant-input-group-compact > .ant-select > .ant-select-arrow {
+    z-index: 1;
+    top: 14px;
+}
