@@ -89,7 +89,7 @@
     position: relative;
     background-color: #fff;
     border: 1px solid #d9d9d9;
-    border-radius: 10px;
+    // border-radius: 10px;
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -145,4 +145,26 @@
 .ant-input-group.ant-input-group-compact > .ant-select > .ant-select-arrow {
     z-index: 1;
     top: 14px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiDataGrid-iconSeparator.css-i4bv87-MuiSvgIcon-root {
+    color: white;
+}
+
+.ant-pagination-item-active a {
+    color: #1890ff;
+    margin-top: -5px;
+}
+
+th.ant-table-cell {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root--densityStandard.css-r11z79-MuiDataGrid-root {
+    border-radius: 30px;
+    background: white;
 }

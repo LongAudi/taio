@@ -134,7 +134,7 @@ const Index = () => {
                 </div>
             </div>
 
-            <div style={{ height: 474.5, width: '93.360%', background: "white" }}>
+            <div style={{ height: 474.5, width: '93.360%' }}>
 
                 <DataGrid
                     rows={rows}

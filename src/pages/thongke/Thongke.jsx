@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import { Breadcrumb, Layout, Menu } from 'antd';
 import Index from '../../components/bdThongke/Index';
+import './thongke.scss'
 
 const Thongke = () => {
     return (

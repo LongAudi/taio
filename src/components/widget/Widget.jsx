@@ -40,7 +40,7 @@ const Widget = ({ type }) => {
                 icon: (<CarryOutOutlined style={{
                     color: "#F4D767",
                 }} />),
-                counter: "03"
+                counter: "04"
             }
             break;
         default:

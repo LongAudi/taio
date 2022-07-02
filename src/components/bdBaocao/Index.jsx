@@ -2,7 +2,7 @@ import React from 'react'
 import { Table } from 'antd';
 import 'antd/dist/antd.css';
 import './index.scss'
-import { Button, message, Upload, AutoComplete, Input, Cascader } from 'antd';
+import {Cascader } from 'antd';
 
 const columns = [
     {
@@ -143,7 +143,7 @@ const Index = () => {
                 Báo cáo
             </div>
             <div className="search">
-                <div className="right" style={{ marginLeft: '83.5%',marginTop: '-20px' }}>                  
+                <div className="right" style={{ marginLeft: '80.5%',marginTop: '-20px' }}>                  
                     <Cascader style={{ marginLeft: ' 20px' }} options={options} onChange={onChange} placeholder="Tác vụ" />
                 </div>
             </div>
